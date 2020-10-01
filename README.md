@@ -1,2 +1,60 @@
 # WEB1100
 Webutvikling oppgave 2
+
+
+<!DOCTYPE html>
+
+<html lang="no">
+
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" type="text/css" href="eksempel-responsiv-layout.css" />
+
+</head>
+
+    <body> 
+        <div class="wrapper">
+            <header>
+                <div class="banner">
+                <h1>Webutvikling og HCI</h1>
+                <p>Oppsumering av pensum i WEB1000</p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="">Hovedside</a></li>
+                        <li><a href="">HTML</a></li>
+                        <li><a href="">CSS</a></li>
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">Design Thinking</a>
+                            <div class="dropdown-content">
+                            <a href="">Design Thinking: Forstå</a>
+                            <a href="">Design Thinking: Utforske</a>
+                            <a href="">Design Thinking: Virkeliggjøre</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <article>
+                    <div class="content">
+                        <h1>Her er et eksempel av responsiv layout</h1>
+
+                        <p>
+                            Dette er en element. Dette kan være et artikel eller en del tekst. Et bilde eller en liste med linker. Med responsiv layout så skal layouten av nettsiden endre seg basert på størrelsen av nettleseren.
+                        </p>
+
+                        <p>
+                            Her er en annen element. Dette skal innholde noe mer informasjon. Med responsiv layout så skal layouten av nettsiden endre seg basert på størrelsen av nettleseren.
+                        </p>
+                    </div>
+                </article>
+    
+
+            </main>
+      
+            <footer><p>Her er noe linker og mindre viktig informasjon.</p></footer>
+        </div>
+    </body>
+</html>
